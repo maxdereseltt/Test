@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a2e; /* Dunkler, düsterer Hintergrund */
+    color: #e94560; /* Akzentfarbe Rot/Pink */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+#lockdown-container {
+    background-color: #0f3460; /* Dunkelblauer Block */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(233, 69, 96, 0.8);
+    max-width: 90%;
+    width: 600px;
+}
+
+h1 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+#headline {
+    background-color: #e94560;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1.4em;
+    color: white;
+}
+
+#status-message, #timer-display {
+    font-size: 1.2em;
+    margin-bottom: 25px;
+}
+
+#input-area input[type="password"] {
+    padding: 10px;
+    font-size: 1.1em;
+    width: 60%;
+    border: 2px solid #e94560;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#unlockButton, #lockButtonSecondary {
+    padding: 10px 20px;
+    font-size: 1.1em;
+    background-color: #533483; /* Lila */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#unlockButton:hover {
+    background-color: #7e4baf;
+}
+
+#content-area {
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px solid #4CAF50; /* Grün für Entsperrt */
+    border-radius: 10px;
+}
+
+#content-area h2 {
+    color: #4CAF50;
+}
